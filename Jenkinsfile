@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Dev') {
       steps {
-        build 'Build'
+        build 'make'
       }
     }
     stage('Production') {
